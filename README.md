@@ -41,13 +41,13 @@ _You will copy a blank spreadsheet workbook and format it with your data_
 
   * **Entity Description:** A short, less than one paragraph, description of the identifiable entity in the image that a user will see if they correctly identify the image.
 
-  Example content:
+    Example content:
 
-  | Image Name | Entity Name	| Entity Description |
-  |---|---|---|
-  | acrobat_ant.jpg | acrobat ant | The scientific name of this insect is: Formicidae Crematogaster sp |
-  | assassin_bug.jpg |	assassin bug	| The scientific name of this insect is: Reduviidae Pselliopus sp |
-  | snail.jpg	| snail |	The scientific name of this insect is: Prob Polygyridae |
+    | Image Name | Entity Name	| Entity Description |
+    |---|---|---|
+    | acrobat_ant.jpg | acrobat ant | The scientific name of this insect is: Formicidae Crematogaster sp |
+    | assassin_bug.jpg |	assassin bug	| The scientific name of this insect is: Reduviidae Pselliopus sp |
+    | snail.jpg	| snail |	The scientific name of this insect is: Prob Polygyridae |
 
 4. Select the `App Info` tab and add the necessary information for your application display:
 
@@ -61,7 +61,11 @@ _You will copy a blank spreadsheet workbook and format it with your data_
 
   * **App Description** A description of your application. This can be one to several paragraphs providing the user with background on the image series and the person/group behind creating the application. This will appear in the information popup accessible via the info button.
 
+    Example content:
 
+    | App Name | Group Name | Image Entities | Site Link | App Description |
+    |---|---|---|---|---|
+    |Insect Identifier	| Digital Library Initiatives	| Insects	http://go.ncsu.edu/diy-identify	| This image guessing game application was built using a web template developed at NCSU Libraries... |
 
 Connect your app to the Google Sheets workbook
 ---
@@ -77,7 +81,7 @@ _You will publish the workbook you just edited and link it to your GitHub reposi
 
 4. Open the file `config.json`. Select the `Edit this file` button ![Edit this file button](./README-imgs/editFileBtn.png) to open the file in edit mode.
 
-5. Replace the text _YOUR GOOGLE SHEET URL_ in this file with the URL you copied from your Google Sheets workbook. **Important: make sure the url is surrounded by double quotes `" "`**. For example:
+5. Replace the text _YOUR GOOGLE SHEET URL_ in this file with the URL you copied from your Google Sheets workbook. **Important: make sure the URL is surrounded by double quotes `" "`**. For example:
 
   ```json
   {
@@ -93,7 +97,7 @@ _You will upload the images you referenced in the workbook to GitHub_
 
 1. In the tab in which your GitHub repository is opened navigate to the `static` folder and then to the `images` folder.
 
-2. Select the `Upload files` button, select _choose your files_ and browse to the location of the files with the same names as the files you referenced in the _Image Name_ column of your _Image Info_ spreadsheet, and select `Open`.
+2. Select the `Upload files` button, select _choose your files_ and browse to the location of the files with the same names as the files you referenced in the _Image Name_ column of your _Image Info_ spreadsheet, and select `Open`. **Important: Make sure the image names exactly match the names you put in column one of _Image Info_**
 
 3. Select `Commit changes` to confirm the new file additions. Uploading many images may take several minutes.
 
@@ -119,7 +123,34 @@ _You will publish a page built from the resources in your repository and the lin
 
   * You can also play through the game to check that all the images load.
 
-  If you have any issues check the _Troubleshooting_ section below.
+  If you have any issues check the [Troubleshooting](#troubleshooting) section below.
 
 Troubleshooting
 ===
+**The application does not load completely**
+
+Make sure that you have correctly referenced the URL in the `config.json` file. See [Connect your app to the Google Sheets workbook](connect-your-app-to-the-Google-Sheets-workbook).
+
+**Some or all of the application data does not display**
+
+Make sure that all the data in row one of the _App Info_ spreadsheet is filled in.
+
+**Some of my images do not show up**
+
+Make sure that the name of the image you uploaded to GitHub matches the name you put into the first column of the _Imaage Info_ spreadsheet.
+
+About
+===
+
+This template was developed at [NCSU Libraries](https://www.lib.ncsu.edu/). For more information on digital development at NCSU Libraries see the [Digital Library Initiatives](https://www.lib.ncsu.edu/department/digital-library-initiatives) project and initiatives page: https://www.lib.ncsu.edu/dli/projects.
+
+The photographs and insect information was supplied by Matt Bertone from the NCSU Department of Entomology & Plant Pathology. See more of Matt's photos on his [flickr page](https://www.flickr.com/photos/76790273@N07/).
+
+This template was built using the Vue.js framework based on an Angular project built by Sourrabh Saha.
+
+Authors
+---
+
+Walt Gurley
+
+Sourrabh Saha
