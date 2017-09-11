@@ -65,7 +65,7 @@ _You will copy a blank spreadsheet workbook and format it with your data_
 
     | App Name | Group Name | Image Entities | Site Link | App Description |
     |---|---|---|---|---|
-    |Insect Identifier	| Digital Library Initiatives	| Insects	http://go.ncsu.edu/diy-identify	| This image guessing game application was built using a web template developed at NCSU Libraries... |
+    |Insect Identifier	| Digital Library Initiatives	| Insects |	http://go.ncsu.edu/diy-identify	| This image guessing game application was built using a web template developed at NCSU Libraries... |
 
 Connect your app to the Google Sheets workbook
 ---
