@@ -13,7 +13,18 @@ Before you begin creating your own application you must have access to a [GitHub
 
 Directions
 ===
-Fork this repository
+
+Follow the steps below to create your own image guessing game. There are five main parts:
+
+1. Fork the DIY Identify repository (i.e., make a copy of the base code in your own GitHub account)
+2. Prepare your data in Google Sheets
+3. Connect your app to the Google Sheets workbook
+4. Add your images to GitHub
+5. Publish your page
+
+All of these steps can be completed in the browser. It is recommended to have these instructions open in a separate browser tab for reference.
+
+Fork the DIY Identify repository
 ---
 _You will create a copy of the **DIY Identify** repository in your own GitHub account_
 
@@ -129,7 +140,7 @@ Troubleshooting
 ===
 **The application does not load completely**
 
-Make sure that you have correctly referenced the URL in the `config.json` file. See [Connect your app to the Google Sheets workbook](connect-your-app-to-the-Google-Sheets-workbook).
+Make sure that you have correctly referenced the URL in the `config.json` file. See [Connect your app to the Google Sheets workbook](#connect-your-app-to-the-Google-Sheets-workbook).
 
 **Some or all of the application data does not display**
 
