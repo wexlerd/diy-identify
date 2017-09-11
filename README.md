@@ -140,7 +140,7 @@ Troubleshooting
 ===
 **The application does not load completely**
 
-Make sure that you have correctly referenced the URL in the `config.json` file. See [Connect your app to the Google Sheets workbook](#Connect your app to the Google Sheets workbook).
+Make sure that you have correctly referenced the URL in the `config.json` file. See [Connect your app to the Google Sheets workbook](#connect-your-app-to-the-google-sheets-workbook).
 
 **Some or all of the application data does not display**
 
