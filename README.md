@@ -3,6 +3,15 @@
 
 > The resources in this repository and the directions in this README allow you to create an interactive image guessing game using your own imagery and data. This template utilizes GitHub as a web hosting platform and Google Sheets as a data server. All preparations can be done online without downloading or installing any tools.
 
+<div style="text-align:center">
+<figure>
+  <img
+  src="./README-imgs/insectIdentifier.png"
+  alt="An awesome picture">
+  <figcaption>Fig 1. An example project built with DIY Identify</figcaption>
+</figure>
+</div>
+
 An example completed application using the contents of this repository is available here: https://waltgurley.github.io/diy-identify/.
 
 The images for this example are located in [this repository](https://github.com/WaltGurley/diy-identify/tree/gh-pages) in the directory `./static/images`, and the data is located in [this Google Sheet](https://docs.google.com/spreadsheets/d/1Ew_tsLL-TxHdKuFHkeq807o9gEOekfPvKjFiecznDqc/edit#gid=0)
@@ -23,7 +32,12 @@ _You will create a copy of the **DIY Identify** repository in your own GitHub ac
 
 3. You should now have a copy of the DIY Identify repository with all the necessary folders and files under your own account. Keep this repository open in a tab in your browser.
 
-  ![Repository contents](./README-imgs/RepoContents.png)
+  <figure>
+    <img
+    src="./README-imgs/RepoContents.png"
+    alt="An awesome picture">
+    <figcaption>Fig 2. The contents of your new repository</figcaption>
+  </figure>
 
 Prepare your data in Google Sheets
 ---
@@ -73,7 +87,12 @@ _You will publish the workbook you just edited and link it to your GitHub reposi
 
 1. In your workbook select `File > Publish to the web...`. Ensure that you are publishing a _Link_ with the _Entire Document_ as a _Web page_. Select `Publish` and confirm by selecting `OK`. Close the _Publish to the web_ popup.
 
-  ![Publish to the web in Google Sheets](./README-imgs/PublishToWeb.png)
+  <figure>
+    <img
+    src="./README-imgs/PublishToWeb.png"
+    alt="Publish to the web in Google Sheets">
+    <figcaption>Fig 3. Publish to the web dialogue</figcaption>
+  </figure>
 
 2. Copy the URL from the address bar. It will look something like this: `https://docs.google.com/spreadsheets/d/1fRayIfFSIymfAK_LMTGFJBvMW0Nuk3NQu0gu2xG5oJM/edit#gid=0`
 
@@ -135,7 +154,7 @@ Make sure that you have correctly referenced the URL in the `config.json` file. 
 
 Make sure that all the data in row one of the _App Info_ spreadsheet is filled in.
 
-**Some of my images do not show up**
+**Some of the images do not show up**
 
 Make sure that the name of the image you uploaded to GitHub matches the name you put into the first column of the _Imaage Info_ spreadsheet.
 
